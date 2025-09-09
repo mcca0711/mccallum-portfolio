@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Matt McCallum — AI Developer & Product | Automation</title>
+  <meta name="description" content="AI developer & product-minded technologist using FastAPI, Vue.js, and modern ML to ship real value. Security-cleared.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Matt McCallum",
+    "jobTitle": "AI Developer & Product Manager",
+    "email": "mailto:orbit9112@gmail.com",
+    "url": "https://example.com",
+    "sameAs": ["https://www.linkedin.com/in/mcmatt42/"]
+  }
+  </script>
+</head>
+<body>
+ <nav class="nav">
+  <div class="container wrap">
+    <div class="brand"><a class="brand-name" href="index.html">Matt McCallum's Portfolio</a></div>
+    <div class="actions">
+      <a class="btn small ghost" href="index.html">Home</a>
+      <a class="btn small ghost" href="index.html#work">Projects</a>
+      <a class="btn small ghost" href="resume.html">Resume</a>
+      <a class="btn small ghost" href="about.html">About</a>
+      <a class="btn small primary" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<header class="hero">
+  <div class="hero-blob"></div>
+  <div class="container">
+    <div>
+      <div class="kicker">AI Developer • AI Product • Automation</div>
+      <h1>Building practical <strong>AI systems</strong> that cut manual work and scale reliably.</h1>
+      <p class="blurb"> I build production-ready APIs and UIs and practice <strong>AI-augmented development</strong>—using copilots, prompt engineering, and automated checks to remove manual steps and iterate with rigor.</p>
+      <div class="cta-row" style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+        <a class="btn primary" href="resume.html">View Resume</a>
+        <a class="btn" href="#" onclick="return downloadResumeTxt(event)">Download TXT Resume</a>
+        <!-- If you want to avoid the redirect, change projects link to index.html#work -->
+        <a class="btn ghost" href="projects.html">See Projects</a>
+      </div>
+      <div class="section-sm">
+        <div class="kpi">
+          <div><strong>Prod-grade</strong><span>auth, metrics, CI/CD from day 1</span></div>
+          <div><strong>Security-cleared</strong><span>Secret Security Clearance</span></div>
+          <div><strong>AI-first</strong><span>workflows & automation</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="figure">
+      <img src="assets/images/aiatwork.jpg" alt="AI at work—shipping faster with automation and rapid iteration">
+    </div>
+  </div>
+</header>
+
+
+  <main>
+    <section class="section">
+            <div class="container">
+              <h2>What I Do</h2>
+              <div class="grid-3" style="margin-top:12px;">
+        <div class="card">
+          <span class="pill">AI-Augmented Dev</span>
+          <h3>Copilot-first workflow</h3>
+          <p class="meta">Prompting, codegen, refactors, and tests with human review and guardrails.</p>
+        </div>
+        <div class="card">
+          <span class="pill">Product</span>
+          <h3>Outcome-oriented</h3>
+          <p class="meta">Clear scopes, metrics, and usability—shipped to where it creates value.</p>
+        </div>
+        <div class="card">
+          <span class="pill">Engineering</span>
+          <h3>Secure foundations</h3>
+          <p class="meta">FastAPI, Vue, Auth0/RBAC, CI/CD, observability, and privacy-minded AI.</p>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+   <section class="section">
+    <div class="container">
+      <h2 id="work" style="scroll-margin-top:90px">Selected Work</h2>
+
+    <!-- Row 1: Solar Forecasting Dashboard (3 images) -->
+    <div class="card project-card" style="grid-column:1/-1; margin-top:12px;">
+      <div class="figure">
+        <div class="shots">
+          <div class="shot">
+            <img loading="lazy" src="assets/images/renewableenergy1.jpg" alt="Solar forecasting — emissions and production overview">
+          </div>
+          <div class="shot">
+            <img loading="lazy" src="assets/images/renewableenergy2.jpg" alt="Solar forecasting — trends and weather overlays">
+          </div>
+          <div class="shot">
+            <img loading="lazy" src="assets/images/renewableenergy3.jpg" alt="Solar forecasting — recommendations and actions">
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="pill">Solar Forecasting Dashboard · FastAPI</span>
+        <h3 class="title">On-prem AI forecaster for solar sites</h3>
+        <p class="meta">Turns live weather into 48-hour power predictions with peak/maintenance tips, plus map and compare views.</p>
+        <div class="chips">
+          <span class="pill">Python</span><span class="pill">Scikit-Learn</span><span class="pill">FastAPI</span><span class="pill">Docker</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2: ErdosChatBot (2 images) -->
+    <div class="card project-card" style="grid-column:1/-1; margin-top:12px;">
+      <div class="figure">
+        <div class="shots">
+          <div class="shot">
+            <img loading="lazy" src="assets/images/erdoschatbot.jpg" alt="ErdosChatBot — conversation list and message thread">
+          </div>
+          <div class="shot">
+            <img loading="lazy" src="assets/images/erdoschatbot2.jpg" alt="ErdosChatBot — realtime notifications and composing">
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="pill">ErdosChatBot · React + Express</span>
+        <h3 class="title">NLP chat with realtime notifications</h3>
+        <p class="meta">Production-ready messaging; OpenAI integration; performance optimized for scale.</p>
+        <div class="chips">
+          <span class="pill">OpenAI</span><span class="pill">React</span><span class="pill">Express</span><span class="pill">Vercel</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3: SolarShift (1 image) -->
+    <div class="card project-card" style="grid-column:1/-1; margin-top:12px;">
+      <div class="figure">
+        <div class="shots">
+          <div class="shot">
+            <img loading="lazy" src="assets/images/solaroptimizer.jpg" alt="SolarShift — site selection map with solar overlay">
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="pill">SolarShift · Flask</span>
+        <h3 class="title">Solar panel optimizer</h3>
+        <p class="meta">Geospatial overlays + weather data for site planning and potential estimation.</p>
+        <div class="chips">
+          <span class="pill">Flask</span><span class="pill">OpenWeather</span><span class="pill">Leaflet</span><span class="pill">PostGIS</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 4: Tutorials (2 images) -->
+    <div class="card project-card" style="grid-column:1/-1; margin-top:12px;">
+      <div class="figure">
+        <div class="shots">
+          <div class="shot">
+            <img loading="lazy" src="assets/images/tutorial1.jpg" alt="Tutorials — AI-assisted web app tutorial, part 1">
+          </div>
+          <div class="shot">
+            <img loading="lazy" src="assets/images/tutorial2.jpg" alt="Tutorials — AI-assisted web app tutorial, part 2">
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="pill">Instructional Tutorials</span>
+        <h3 class="title">AI-assisted web app tutorials</h3>
+        <p class="meta">Published step-by-step series on building simple web apps with modern AI tools.</p>
+        <div class="chips">
+          <span class="pill">Teaching</span><span class="pill">Curriculum</span><span class="pill">AI Tooling</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year">2025</span> Matthew J. McCallum</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

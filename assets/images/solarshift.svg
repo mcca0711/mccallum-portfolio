@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs><linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#f97316"/></linearGradient></defs>
+  <rect width="1400" height="900" fill="#ffffff"/>
+  <rect x="160" y="120" width="1080" height="660" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="200" y="160" width="1000" height="60" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="220" y="180" width="260" height="20" rx="10" fill="#fde68a"/>
+  <rect x="200" y="240" width="1000" height="500" rx="16" fill="#ecfeff" stroke="#e2e8f0"/>
+  <g opacity="0.8">
+    <rect x="210" y="250" width="240" height="120" fill="#cffafe"/>
+    <rect x="460" y="250" width="240" height="120" fill="#bae6fd"/>
+    <rect x="710" y="250" width="240" height="120" fill="#a7f3d0"/>
+    <rect x="960" y="250" width="220" height="120" fill="#bfdbfe"/>
+  </g>
+  <circle cx="720" cy="490" r="180" fill="url(#sun)" opacity="0.35"/>
+  <circle cx="840" cy="520" r="110" fill="url(#sun)" opacity="0.25"/>
+  <circle cx="600" cy="520" r="110" fill="url(#sun)" opacity="0.25"/>
+  <rect x="200" y="760" width="1000" height="20" rx="10" fill="#fef3c7"/>
+</svg>

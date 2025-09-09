@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resume — Matt McCallum</title>
+  <meta name="description" content="ATS-friendly resume for Matt McCallum — AI-Augmented Software Developer & Product Engineer.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<nav class="nav">
+  <div class="container wrap">
+    <div class="brand"><a class="brand-name" href="index.html">Matt McCallum's Portfolio</a></div>
+    <div class="actions">
+      <a class="btn small ghost" href="index.html">Home</a>
+      <a class="btn small ghost" href="index.html#work">Projects</a>
+      <a class="btn small ghost" href="resume.html">Resume</a>
+      <a class="btn small ghost" href="about.html">About</a>
+      <a class="btn small primary" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main class="section">
+  <div class="container resume">
+    <header>
+      <h1>Matt McCallum</h1>
+      <p class="mono">AI-Augmented Software Developer & Product Engineer · FastAPI · Vue · Auth0/RBAC · CI/CD · GenAI</p>
+      <div class="meta mono">
+        Email: <a href="mailto:orbit9112@gmail.com">orbit9112@gmail.com</a> ·
+        LinkedIn: <a href="https://www.linkedin.com/in/mcmatt42/" target="_blank" rel="noopener">https://www.linkedin.com/in/mcmatt42/</a>
+      </div>
+      <div class="hide-print" style="display:flex; gap:10px; margin-top:8px;">
+        <a class="btn" href="#" onclick="return downloadResumeTxt(event)">Download TXT Resume</a>
+      </div>
+    </header>
+    <div class="bar"></div>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Innovative and results-driven Software Developer & Technologist with over 3 years of experience designing, developing, and deploying cutting-edge applications. Skilled in AI-augmented development, integrating advanced machine learning models into practical solutions. Holds Secret Security Clearance, enabling contribution to high-security projects. Adept at building robust, scalable systems using FastAPI, Vue.js, and modern cloud technologies. Passionate about creating impactful digital products that leverage AI for efficiency, automation, and user experience.</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <h3>123 Cyber Inc. (Contractor) — Software Developer <span class="mono">| Apr 2025 – Present</span></h3>
+      <ul>
+        <li>Rebuilt FastAPI + Vue.js application from the ground up; moved from dev/test to production.</li>
+        <li>Integrated AI for report building, voice-to-text transcription, and content summarization.</li>
+        <li>Implemented AI-powered workflows to structure unformatted data into actionable insights.</li>
+        <li>Optimized backend performance, enhanced UI/UX, and ensured security compliance.</li>
+        <li>Reduced manual reporting time by over 50%.</li>
+      </ul>
+
+      <h3>Collabowave — Software Developer <span class="mono">| Feb 2025 – Feb 2025</span></h3>
+      <ul>
+        <li>Built AI-assisted reporting with OpenAI API to improve data capture and field allocation.</li>
+        <li>Developed transcription services converting audio into structured reports.</li>
+        <li>Implemented Auth0 with role-based access control.</li>
+        <li>Transitioned to 123 Cyber Inc. following merger.</li>
+      </ul>
+
+      <h3>ThinkOrbit Innovations Inc. — Founder & Developer <span class="mono">| Apr 2024 – Present</span></h3>
+      <ul>
+        <li>Delivered tailored software and SEO solutions that improved client engagement and rankings.</li>
+        <li>Consulted on operational efficiency using innovative tech and automation.</li>
+        <li>Developed AI-powered solutions to remove bottlenecks and accelerate workflows.</li>
+      </ul>
+
+      <h3>WithYouWithMe Services Inc. — Software Developer <span class="mono">| Jun 2022 – Apr 2024</span></h3>
+      <ul>
+        <li>Modernized legacy systems for the Canadian Armed Forces to improve performance and security.</li>
+        <li>Automated workflows and led cross-functional delivery.</li>
+        <li>Built APIs bridging legacy backends to modern frontends; applied AI methods to improve functionality.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <h3>Solar Forecasting Dashboard</h3>
+      <ul>
+        <li>FastAPI + Scikit-Learn: On-prem AI forecaster for solar sites.</li>
+        <li>Turns live weather into 48-hour power predictions with peak/maintenance tips, plus map and compare views.</li>
+      </ul>
+
+      <h3>ASDChatBot (React)</h3>
+      <ul>
+        <li>Express.js + OpenAI chat, deployed on Vercel; NLP chat with realtime notifications.</li>
+        <li>Production-ready messaging; OpenAI integration; performance optimized for scale.</li>
+      </ul>
+
+      <h3>Solar panel optimizer</h3>
+      <ul>
+        <li>Solar placement optimization using OpenWeather data and geospatial overlays.</li>
+        <li>UI for real-time site scoring and potential energy yield.</li>
+      </ul>
+
+      <h3>Instructional Tutorials — Oxford University AI Course</h3>
+      <ul>
+        <li>Published step-by-step series on building simple web apps with modern AI tools.</li>
+        <li>Covers AI-assisted generation with step-by-step execution.</li>
+      </ul>
+
+      <h3>Portfolio Website (HTML, JavaScript)</h3>
+      <ul>
+        <li>Clean, fast GitHub Pages site showcasing projects, skills, and outcomes.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Erdos Research</strong> — AI and LLM Projects (Ongoing), 2024–Present</p>
+      <p><strong>Algonquin College</strong> — Diploma in Computer Programming, 2022 (Ottawa, ON)</p>
+      <p><strong>Algonquin College</strong> — Diploma in Law and Security, 2007 (Ottawa, ON)</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p class="mono">AI-Augmented Development, Copilot-First, Prompt Engineering, RAG, LLMOps, FastAPI, Vue, Auth0/RBAC, Docker, CI/CD, Observability, Java, Python, C++, C#, JavaScript, SQL, PL/SQL, Git, Jira, Toad for Oracle, AWS, Azure, SQL Server, Node.js, MongoDB, Oracle, PostgreSQL, React Native, Flask, TensorFlow, PyTorch, Keras</p>
+    </section>
+
+    <section>
+      <h2>Certifications & Awards</h2>
+      <ul>
+        <li>Coursera: Supervised Machine Learning Certification</li>
+        <li>Tech Design Sprint: Winning Solution — 2022</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Additional Experience</h2>
+      <p>Construction Career Transition (2020) — Successfully transitioned to software development; transferred project management and troubleshooting strengths.</p>
+    </section>
+
+    <section>
+      <h2>Security Clearance</h2>
+      <p>Secret Security Clearance (active).</p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div>© 2025 Matthew J. McCallum</div>
+  </div>
+</footer>
+</body>
+</html>
