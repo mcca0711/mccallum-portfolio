@@ -1,6 +1,8 @@
 Modern Portfolio — Matthew J. McCallum
 =================================================
 
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-deployed-blue)
+
 How to run locally
 ------------------
 1) Unzip this folder.
