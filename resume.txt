@@ -1,18 +1,25 @@
 Matt McCallum
-AI-Augmented Software Developer & Product Engineer · FastAPI · Vue · Auth0/RBAC · CI/CD · GenAI
+AI Full-Stack Software Developer · FastAPI · Vue · Auth0/RBAC · CI/CD · GenAI
 Email: orbit9112@gmail.com
 LinkedIn: https://www.linkedin.com/in/mcmatt42/
 
 Professional Summary
-Innovative and results-driven Software Developer & Technologist with over 3 years of experience designing, developing, and deploying cutting-edge applications. Skilled in AI-augmented development, integrating advanced machine learning models into practical solutions. Holds Secret Security Clearance, enabling contribution to high-security projects. Adept at building robust, scalable systems using FastAPI, Vue.js, and modern cloud technologies. Passionate about creating impactful digital products that leverage AI for efficiency, automation, and user experience.
+Innovative, results-driven AI-Augmented Software Developer & Technologist with over 3 years of experience designing, developing, and deploying cutting-edge applications. Skilled in AI-augmented development, integrating advanced machine learning models into practical solutions. Holds Secret Security Clearance, enabling contribution to high-security projects. Adept at building robust, scalable systems using FastAPI, Vue.js, Auth0/RBAC, CI/CD, GenAI and modern cloud technologies. Focused on creating impactful digital products that leverage AI for efficiency, automation, and user experience.
 
 Experience
-123 Cyber Inc. (Contractor) — Software Developer | Apr 2025 – Present
-- Rebuilt FastAPI + Vue.js application from the ground up; moved from dev/test to production.
+Freelance AI Full-Stack Software Developer | Apr 2024 – Present
+- Design and implement AI integrations and workflows that automate routine tasks, streamline decisions, and turn unstructured data into usable outputs, requiring strong attention to detail and problem-solving skills.
+- Work directly with non-technical stakeholders to clarify requirements, communicate trade-offs, and organize work into clear, deliverable milestones.
+- Take initiative to identify bottlenecks in client workflows, propose AI-powered improvements, and build relationships through clear, non-technical communication.
+
+123 Cyber Inc. (Contractor) — Software Developer | Apr 2025 – Oct 2025
+- Rebuilt a FastAPI and Vue.js web application from scratch and led its deployment from development and test into a stable production environment.
 - Integrated AI for report building, voice-to-text transcription, and content summarization.
 - Implemented AI-powered workflows to structure unformatted data into actionable insights.
 - Optimized backend performance, enhanced UI/UX, and ensured security compliance.
 - Reduced manual reporting time by over 50%.
+- Improved application reliability and performance, reducing production issues by about 30 percent.
+
 
 Collabowave — Software Developer | Feb 2025 – Feb 2025
 - Built AI-assisted reporting with OpenAI API to improve data capture and field allocation.
@@ -20,14 +27,9 @@ Collabowave — Software Developer | Feb 2025 – Feb 2025
 - Implemented Auth0 with role-based access control.
 - Transitioned to 123 Cyber Inc. following merger.
 
-ThinkOrbit Innovations Inc. — Founder & Developer | Apr 2024 – Present
-- Delivered tailored software and SEO solutions that improved client engagement and rankings.
-- Consulted on operational efficiency using innovative tech and automation.
-- Developed AI-powered solutions to remove bottlenecks and accelerate workflows.
-
 WithYouWithMe Services Inc. — Software Developer | Jun 2022 – Apr 2024
-- Modernized legacy systems for the Canadian Armed Forces to improve performance and security.
-- Automated workflows and led cross-functional delivery.
+- Modernized legacy systems for the Canadian Armed Forces, improving response times and reducing recurring support incidents by 30 percent.
+- Automated workflows and worked with cross-functional teams on a daily basis.
 - Built APIs bridging legacy backends to modern frontends; applied AI methods to improve functionality.
 
 Projects
@@ -45,22 +47,23 @@ Solar panel optimizer
 
 Instructional Tutorials — Oxford University AI Course
 - Published step-by-step series on building simple web apps with modern AI tools.
-- Covers AI-assisted generation with step-by-step execution.
-
-Portfolio Website (HTML, JavaScript)
-- Clean, fast GitHub Pages site showcasing projects, skills, and outcomes.
 
 Education
-Erdos Research — AI and LLM Projects (Ongoing), 2024–Present
-Algonquin College — Diploma in Computer Programming, 2022 (Ottawa, ON)
-Algonquin College — Diploma in Law and Security, 2007 (Ottawa, ON)
+Erdos Research — AI and LLM Projects, 2024–2025
+Algonquin College — Diploma in Computer Programming, 2020 - 2022
+Algonquin College — Diploma in Law and Security, 2005 - 2007
 
 Skills
-AI-Augmented Development, Copilot-First, Prompt Engineering, RAG, LLMOps, FastAPI, Vue, Auth0/RBAC, Docker, CI/CD, Observability, Java, Python, C++, C#, JavaScript, SQL, PL/SQL, Git, Jira, Toad for Oracle, AWS, Azure, SQL Server, Node.js, MongoDB, Oracle, PostgreSQL, React Native, Flask, TensorFlow, PyTorch, Keras
+- Programming languages: Python, Java, C++, C#, JavaScript, SQL, PL/SQL
+- Web and front-end: web applications, web architecture, HTML, CSS, JavaScript, Vue, React Native
+- AI and data: AI-augmented development, AI integrations, AI workflows, prompt engineering, RAG, LLMOps, TensorFlow, PyTorch, Keras
+- Backend and DevOps: FastAPI, Flask, Node.js, Auth0/RBAC, Docker, CI/CD, observability, AWS, Azure, Google Cloud Platform, SQL Server, PostgreSQL, MongoDB, Oracle
+- Product and delivery: product development, continuous improvement, emerging technologies, customer-centric solutions
+- Professional skills: project management, attention to detail, strong problem-solving skills, verbal communication, organizational skills, cross-functional collaboration, relationship building, taking initiative
 
 Certifications & Awards
 - Coursera: Supervised Machine Learning Certification
-- Tech Design Sprint: Winning Solution — 2022
+- Tech Design Sprint: Winning Solution, Fortinet,  2022
 
 Additional Experience
 - Construction Career Transition (2020) — Successfully transitioned to software development; transferred project management and troubleshooting strengths.
