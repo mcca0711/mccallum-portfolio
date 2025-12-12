@@ -1,6 +1,8 @@
 Modern Portfolio — Matthew J. McCallum
 =================================================
 
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-deployed-blue)
+
 How to run locally
 ------------------
 1) Unzip this folder.
@@ -21,8 +23,3 @@ Customize
 - Update colors/fonts in `assets/css/style.css`.
 - `resume.html` is ATS-friendly and prints cleanly (use the Print button).
 - `resume.txt` is included for portals that require plain text resume.
-
-Notes
------
-- No project links point to GitHub (as requested).
-- Emphasis is on AI developer / AI product / automation specialist positioning across pages.
