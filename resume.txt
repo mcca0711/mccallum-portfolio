@@ -1,72 +1,94 @@
-Matt McCallum
-AI Full-Stack Software Developer · FastAPI · Vue · Auth0/RBAC · CI/CD · GenAI
-Email: orbit9112@gmail.com
-LinkedIn: https://www.linkedin.com/in/mcmatt42/
+MATT McCALLUM
 
-Professional Summary
-Innovative, results-driven AI-Augmented Software Developer & Technologist with over 3 years of experience designing, developing, and deploying cutting-edge applications. Skilled in AI-augmented development, integrating advanced machine learning models into practical solutions. Holds Secret Security Clearance, enabling contribution to high-security projects. Adept at building robust, scalable systems using FastAPI, Vue.js, Auth0/RBAC, CI/CD, GenAI and modern cloud technologies. Focused on creating impactful digital products that leverage AI for efficiency, automation, and user experience.
+AI Full-Stack Software Developer • Ottawa-Gatineau Area • Secret Clearance (Active)
 
-Experience
-Freelance AI Full-Stack Software Developer | Apr 2024 – Present
-- Design and implement AI integrations and workflows that automate routine tasks, streamline decisions, and turn unstructured data into usable outputs, requiring strong attention to detail and problem-solving skills.
-- Work directly with non-technical stakeholders to clarify requirements, communicate trade-offs, and organize work into clear, deliverable milestones.
-- Take initiative to identify bottlenecks in client workflows, propose AI-powered improvements, and build relationships through clear, non-technical communication.
+orbit9112@gmail.com • linkedin.com/in/mcmatt42 • mcca0711.github.io/mccallum-portfolio
 
-123 Cyber Inc. (Contractor) — Software Developer | Apr 2025 – Oct 2025
-- Rebuilt a FastAPI and Vue.js web application from scratch and led its deployment from development and test into a stable production environment.
-- Integrated AI for report building, voice-to-text transcription, and content summarization.
-- Implemented AI-powered workflows to structure unformatted data into actionable insights.
-- Optimized backend performance, enhanced UI/UX, and ensured security compliance.
-- Reduced manual reporting time by over 50%.
-- Improved application reliability and performance, reducing production issues by about 30 percent.
+================================================================================
+PROFILE
+================================================================================
 
+Full-stack developer who transitioned into software after years in construction, where I repeatedly saw inefficiencies and failure modes that code could solve better than any tool in my belt. I now build AI-integrated production applications with the same mindset: ship systems that work in the mess of the real world. I specialize in FastAPI, Vue.js, and Python backends with GenAI integrations, including RAG pipelines, voice transcription, and automated reporting. Active Secret Security Clearance, with experience delivering secure systems for government and enterprise environments.
 
-Collabowave — Software Developer | Feb 2025 – Feb 2025
-- Built AI-assisted reporting with OpenAI API to improve data capture and field allocation.
-- Developed transcription services converting audio into structured reports.
-- Implemented Auth0 with role-based access control.
-- Transitioned to 123 Cyber Inc. following merger.
+================================================================================
+TECHNICAL SKILLS
+================================================================================
 
-WithYouWithMe Services Inc. — Software Developer | Jun 2022 – Apr 2024
-- Modernized legacy systems for the Canadian Armed Forces, improving response times and reducing recurring support incidents by 30 percent.
-- Automated workflows and worked with cross-functional teams on a daily basis.
-- Built APIs bridging legacy backends to modern frontends; applied AI methods to improve functionality.
+Languages:        Python, JavaScript/TypeScript, SQL, C#, Java, C++
+Frontend:         Vue.js, React, HTML/CSS, responsive design
+Backend & Cloud:  FastAPI, Flask, Node.js, PostgreSQL, MongoDB, Docker, AWS, Azure, CI/CD
+AI/ML:            OpenAI API, RAG, prompt engineering, LLMOps, TensorFlow, PyTorch, Scikit-learn
+Security:         Auth0/RBAC, OAuth 2.0, Secret Clearance protocols
 
-Projects
+================================================================================
+EXPERIENCE
+================================================================================
+
+FREELANCE AI FULL-STACK DEVELOPER
+Self-Employed • Apr 2024 - Present
+
+  • Build end-to-end AI solutions for clients: workflow automation, intelligent 
+    document processing, and systems that turn unstructured data into actionable outputs
+  • Own the full delivery cycle - requirements gathering with non-technical stakeholders, 
+    architecture decisions, implementation, and deployment
+  • Identify bottlenecks in client operations and propose AI-powered improvements; 
+    build lasting relationships through clear communication and reliable delivery
+
+FULL-STACK SOFTWARE DEVELOPER
+123 Cyber Inc. (Contract) • Apr 2025 - Oct 2025
+
+  • Rebuilt FastAPI + Vue.js web application and deployed through dev, test, and 
+    production environments
+  • Integrated AI features: report generation, voice-to-text transcription, and 
+    content summarization
+  • Reduced manual reporting time by 50% through automated data structuring workflows
+
+FULL-STACK SOFTWARE DEVELOPER
+Collabowave • Jan 2025 - Apr 2025
+
+  • Built AI-assisted reporting using OpenAI API to improve data capture accuracy 
+    and field allocation
+  • Developed transcription service converting audio into structured, searchable reports
+  • Implemented Auth0 with role-based access control for secure multi-tenant architecture
+
+FULL-STACK SOFTWARE DEVELOPER
+WithYouWithMe Services Inc. • Jun 2022 - Apr 2024
+
+  • Modernized legacy systems for the Canadian Armed Forces; reduced recurring 
+    support incidents by 30%
+  • Built REST APIs bridging legacy backends to modern Vue.js frontends; integrated 
+    AI methods for enhanced functionality
+  • Collaborated daily with cross-functional teams; automated manual workflows to 
+    eliminate repetitive processes
+
+================================================================================
+SELECTED PROJECTS
+================================================================================
+
 Solar Forecasting Dashboard
-- FastAPI + Scikit-Learn: On-prem AI forecaster for solar sites.
-- Turns live weather into 48-hour power predictions with peak/maintenance tips, plus map and compare views.
+  FastAPI + Scikit-learn forecaster turning live weather data into 48-hour power 
+  predictions with maintenance recommendations
 
-ASDChatBot (React)
-- Express.js + OpenAI chat, deployed on Vercel; NLP chat with realtime notifications.
-- Production-ready messaging; OpenAI integration; performance optimized for scale.
+ASDChatBot
+  Production Express.js + OpenAI chat application deployed on Vercel; real-time 
+  messaging with NLP integration
 
-Solar panel optimizer
-- Solar placement optimization using OpenWeather data and geospatial overlays.
-- UI for real-time site scoring and potential energy yield.
+Solar Panel Optimizer
+  Placement optimization tool using OpenWeather API and geospatial overlays for 
+  real-time site scoring
 
-Instructional Tutorials — Oxford University AI Course
-- Published step-by-step series on building simple web apps with modern AI tools.
+================================================================================
+EDUCATION & CERTIFICATIONS
+================================================================================
 
-Education
-Erdos Research — AI and LLM Projects, 2024–2025
-Algonquin College — Diploma in Computer Programming, 2020 - 2022
-Algonquin College — Diploma in Law and Security, 2005 - 2007
+Erdos Research - AI and LLM Projects, 2024-2025
+Algonquin College - Diploma, Computer Programming, 2020-2022
+Algonquin College - Diploma, Law and Security, 2005-2007
+Coursera - Supervised Machine Learning Certification
+Fortinet Tech Design Sprint - Winning Solution, 2022
 
-Skills
-- Programming languages: Python, Java, C++, C#, JavaScript, SQL, PL/SQL
-- Web and front-end: web applications, web architecture, HTML, CSS, JavaScript, Vue, React Native
-- AI and data: AI-augmented development, AI integrations, AI workflows, prompt engineering, RAG, LLMOps, TensorFlow, PyTorch, Keras
-- Backend and DevOps: FastAPI, Flask, Node.js, Auth0/RBAC, Docker, CI/CD, observability, AWS, Azure, Google Cloud Platform, SQL Server, PostgreSQL, MongoDB, Oracle
-- Product and delivery: product development, continuous improvement, emerging technologies, customer-centric solutions
-- Professional skills: project management, attention to detail, strong problem-solving skills, verbal communication, organizational skills, cross-functional collaboration, relationship building, taking initiative
+================================================================================
+BACKGROUND
+================================================================================
 
-Certifications & Awards
-- Coursera: Supervised Machine Learning Certification
-- Tech Design Sprint: Winning Solution, Fortinet,  2022
-
-Additional Experience
-- Construction Career Transition (2020) — Successfully transitioned to software development; transferred project management and troubleshooting strengths.
-
-Security Clearance
-- Secret Security Clearance (active).
+Construction (2008-2020): 12 years managing crews, coordinating across trades, and delivering physical projects under real constraints. Transitioned to software development to solve the inefficiencies I saw every day - bringing project management discipline, troubleshooting instincts, and a bias toward solutions that survive contact with reality.
