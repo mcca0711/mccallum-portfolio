@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matthew McCallum — Full-Stack Developer & Applied AI</title>
-  <meta name="description" content="Matthew McCallum — Full-stack developer with 4 years building web applications and AI-powered workflows. FastAPI, React, Vue, Python, OpenAI. Ottawa–Gatineau. Active Secret Clearance.">
-  <meta property="og:title" content="Matthew McCallum — Full-Stack Developer">
-  <meta property="og:description" content="4 years building production software and AI-powered tools for government and enterprise.">
+  <meta name="description" content="Matthew McCallum — full-stack developer building practical AI-assisted software, internal tools, desktop apps, and workflow automation. Creator of Berly, a desktop AI compliance documentation app.">
+  <meta property="og:title" content="Matthew McCallum — Full-Stack Developer & Applied AI">
+  <meta property="og:description" content="Full-stack developer building practical AI-assisted software, desktop apps, and workflow tools. Creator of Berly.">
+  <meta property="og:image" content="https://mcca0711.github.io/mccallum-portfolio/assets/images/og-image.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -43,9 +46,9 @@
           <h1 class="hero-name">Matthew<br>McCallum</h1>
           <p class="hero-role">Full-Stack Developer · Applied AI</p>
           <p class="hero-desc">
-            4 years building software and AI-assisted workflows across government,
-            enterprise, and freelance work. I turn complex requirements into
-            maintainable systems and manual processes into usable tools.
+            Full-stack developer building practical AI-assisted software, desktop apps,
+            internal tools, and workflow systems. Creator of Berly, a downloadable
+            desktop app for AI compliance documentation.
           </p>
           <div class="hero-meta">
             <span class="meta-item">
@@ -89,32 +92,65 @@
 
         <div class="projects-grid">
 
-          <!-- PROJECT 1 — FEATURED: Solar Forecasting Dashboard -->
+          <!-- PROJECT 1 — FEATURED: Berly -->
           <article class="project project-featured fade-in">
             <div class="project-gallery">
               <div class="gallery-main">
                 <img
-                  id="gallery-main-img"
-                  src="assets/images/renewableenergy1.jpg"
-                  alt="Solar Forecasting Dashboard — forecast overview"
+                  src="assets/images/og-image.png"
+                  alt="Berly — desktop AI compliance documentation app"
                   loading="lazy"
                 >
               </div>
-              <div class="gallery-thumbs">
-                <button class="thumb active" data-src="assets/images/renewableenergy1.jpg" aria-label="Forecast overview">
-                  <img src="assets/images/renewableenergy1.jpg" alt="">
-                </button>
-                <button class="thumb" data-src="assets/images/renewableenergy2.jpg" aria-label="Weather data overlay">
-                  <img src="assets/images/renewableenergy2.jpg" alt="">
-                </button>
-                <button class="thumb" data-src="assets/images/renewableenergy3.jpg" aria-label="Maintenance recommendations">
-                  <img src="assets/images/renewableenergy3.jpg" alt="">
-                </button>
-              </div>
             </div>
+
             <div class="project-info">
               <div class="project-meta">
                 <span class="project-num">01</span>
+                <span class="project-tag">Electron · React · TypeScript · Applied AI</span>
+              </div>
+              <h3>Berly</h3>
+              <p>
+                Downloadable desktop app for AI compliance documentation. Berly helps teams
+                organize AI-system information, evidence, review notes, and documentation
+                workflows without turning governance into a manual paperwork exercise.
+              </p>
+              <ul class="project-points">
+                <li>Built with Electron, React 18, TypeScript, Vite, and Tailwind CSS</li>
+                <li>Local-first workflow using localStorage and component state</li>
+                <li>Includes AI-assisted drafting, evidence review, and document export workflows</li>
+                <li>Built licensing, purchase flow, download delivery, and public product site</li>
+              </ul>
+              <div class="tech-stack">
+                <span>Electron</span>
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Vite</span>
+                <span>Tailwind CSS</span>
+                <span>AI Workflows</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://berly.app" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                  Visit Berly ↗
+                </a>
+              </div>
+            </div>
+          </article>
+         
+          <!-- PROJECT 2: Solar Forecasting Dashboard -->
+          <article class="project project-card fade-in">
+            <div class="card-img">
+              <img
+                src="assets/images/renewableenergy1.jpg"
+                alt="Solar Forecasting Dashboard — forecast overview"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-num">02</span>
                 <span class="project-tag">FastAPI · Python · AI</span>
               </div>
               <h3>Solar Forecasting Dashboard</h3>
@@ -123,12 +159,6 @@
                 power forecasts and surface automated maintenance recommendations.
                 Containerized with Docker for on-premises deployment.
               </p>
-              <ul class="project-points">
-                <li>Real-time weather API ingestion with fault-tolerant retry logic</li>
-                <li>48-hour generation forecasting engine with confidence intervals</li>
-                <li>Automated maintenance recommendation system</li>
-                <li>Docker-containerized — portable across on-prem environments</li>
-              </ul>
               <div class="tech-stack">
                 <span>FastAPI</span>
                 <span>Python</span>
@@ -139,7 +169,7 @@
             </div>
           </article>
 
-          <!-- PROJECT 2: AI Chat Application -->
+          <!-- PROJECT 3: AI Chat Application -->
           <article class="project project-card fade-in">
             <div class="card-img">
               <img
@@ -157,7 +187,7 @@
             </div>
             <div class="project-info">
               <div class="project-meta">
-                <span class="project-num">02</span>
+                <span class="project-num">03</span>
                 <span class="project-tag">React · OpenAI · WebSocket</span>
               </div>
               <h3>AI Chat Application</h3>
@@ -175,7 +205,7 @@
             </div>
           </article>
 
-          <!-- PROJECT 3: Solar Panel Optimizer -->
+          <!-- PROJECT 4: Solar Panel Optimizer -->
           <article class="project project-card fade-in">
             <div class="card-img">
               <img
@@ -186,7 +216,7 @@
             </div>
             <div class="project-info">
               <div class="project-meta">
-                <span class="project-num">03</span>
+                <span class="project-num">04</span>
                 <span class="project-tag">Flask · Geospatial</span>
               </div>
               <h3>Solar Panel Optimizer</h3>
@@ -216,40 +246,45 @@
         </div>
         <div class="skills-grid fade-in">
           <div class="skill-group">
-            <h4>AI & Integrations</h4>
+            <h4>Applied AI & Workflows</h4>
             <ul>
               <li>OpenAI API integrations</li>
               <li>Structured outputs</li>
-              <li>Voice-to-text transcription pipelines</li>
-              <li>Summarization & report generation</li>
+              <li>Transcription & summarization workflows</li>
+              <li>Evidence review & document generation</li>
               <li>Workflow automation</li>
             </ul>
           </div>
+
           <div class="skill-group">
-            <h4>Backend</h4>
+            <h4>Product & Desktop</h4>
+            <ul>
+              <li>Electron · electron-builder</li>
+              <li>React · TypeScript · Vite</li>
+              <li>Tailwind CSS</li>
+              <li>Desktop app packaging</li>
+              <li>Licensing & download delivery</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h4>Full-Stack</h4>
             <ul>
               <li>Python · FastAPI · Flask</li>
               <li>Node.js · Express</li>
-              <li>PostgreSQL · MongoDB</li>
+              <li>PostgreSQL · Supabase</li>
               <li>REST API design</li>
-              <li>Auth0 · RBAC · OAuth 2.0</li>
+              <li>Auth0 · RBAC</li>
             </ul>
           </div>
+
           <div class="skill-group">
-            <h4>Frontend</h4>
-            <ul>
-              <li>React · Vue.js</li>
-              <li>TypeScript · JavaScript</li>
-              <li>HTML · CSS</li>
-              <li>Responsive UI design</li>
-            </ul>
-          </div>
-          <div class="skill-group">
-            <h4>Cloud & Delivery</h4>
+            <h4>Delivery</h4>
             <ul>
               <li>Docker · CI/CD pipelines</li>
-              <li>Supabase · Azure · Vercel</li>
               <li>Dev / Test / Prod environments</li>
+              <li>Testing with Vitest, Testing Library, pytest</li>
+              <li>Debugging and release workflows</li>
             </ul>
           </div>
         </div>
@@ -263,47 +298,38 @@
           <h2>Experience</h2>
         </div>
 
-        <div class="timeline fade-in">
-          <div class="timeline-item">
-            <div class="timeline-date">Apr 2024 – Present</div>
-            <div class="timeline-body">
-              <h3>Independent Full-Stack Developer</h3>
-              <span class="timeline-org">Self-Employed</span>
-              <p>
-               Building software and internal tools for clients using Python, FastAPI, React/Vue, SQL, Supabase, and API integrations. 
-               Recent work includes AI-assisted reporting, document workflows, and structured extraction features that help turn messy inputs into usable outputs.
-            </div>
-          </div>
+      <div class="timeline fade-in">
+        <div class="timeline-item">
+          <div class="timeline-date">Apr 2024 – Present</div>
+          <div class="timeline-body">
+            <h3>Independent Full-Stack Developer / Applied AI Developer</h3>
+            <span class="timeline-org">Self-Employed / Contract Projects</span>
 
-          <div class="timeline-item">
-            <div class="timeline-date">Jan – Oct 2025</div>
-            <div class="timeline-body">
-              <h3>Full-Stack Software Developer</h3>
-              <span class="timeline-org">123 Cyber Inc. / Collabowave</span>
-              <p>
-                Rebuilt a FastAPI + Vue.js application and deployed it across
-                dev, test, and production environments. Reduced manual reporting time by 50%
-                through automated data structuring. Implemented Auth0 with RBAC for
-                secure multi-tenant architecture. Built transcription workflows that
-                converted audio into structured, searchable reports.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-date">Jun 2022 – Apr 2024</div>
-            <div class="timeline-body">
-              <h3>Full-Stack Software Developer</h3>
-              <span class="timeline-org">WithYouWithMe Services Inc.</span>
-              <p>
-                Modernized legacy systems supporting the Canadian Armed Forces and
-                reduced recurring support incidents by 30%. Built REST APIs connecting
-                legacy backends to modern frontends. Collaborated with cross-functional
-                teams to improve workflows and eliminate repetitive manual processes.
-              </p>
-            </div>
+            <ul class="timeline-points">
+              <li>Built and launched Berly, a downloadable Electron + React/TypeScript desktop app for AI compliance documentation, with local-first storage, licensing, purchase flow, download delivery, and a public product website.</li>
+              <li>Build web applications, desktop software, internal tools, and AI-assisted workflows using Python, FastAPI, React/Vue, TypeScript, SQL, PostgreSQL, Supabase, and API integrations.</li>
+              <li>Develop workflows for reporting, transcription, summarization, structured extraction, document generation, evidence review, and workflow automation.</li>
+              <li>Translate manual, repetitive processes into software tools that reduce busywork and help people organize, review, and explain complex information more clearly.</li>
+              <li>Work directly with stakeholders to define requirements, scope features, debug production issues, and deliver iterative improvements.</li>
+            </ul>
           </div>
         </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jun 2022 – Apr 2024</div>
+          <div class="timeline-body">
+            <h3>Software Developer</h3>
+            <span class="timeline-org">WithYouWithMe Services Inc.</span>
+
+            <ul class="timeline-points">
+              <li>Developed and maintained backend systems supporting Department of National Defence workstreams in a security-conscious environment.</li>
+              <li>Built REST APIs connecting legacy backend systems to modern frontend applications.</li>
+              <li>Modernized legacy workflows, improved maintainability, and helped reduce recurring operational support issues.</li>
+              <li>Collaborated with cross-functional teams to improve internal tools, reduce repetitive manual work, and support maintainable delivery.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
         <div class="certs-grid fade-in">
           <div class="cert-card">

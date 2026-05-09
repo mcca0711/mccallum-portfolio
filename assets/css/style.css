@@ -648,6 +648,7 @@ p {
   padding-top: 0.5rem;
 }
 
+
 .tech-stack span {
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -656,6 +657,13 @@ p {
   border: 1px solid var(--border);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.25rem;
 }
 
 /* === SKILLS === */
@@ -738,6 +746,29 @@ p {
   font-size: 0.875rem;
   line-height: 1.7;
   max-width: 70ch;
+}
+
+.timeline-points {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  max-width: 72ch;
+}
+
+.timeline-points li {
+  position: relative;
+  padding-left: 1.15rem;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+.timeline-points li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 0.78rem;
 }
 
 /* === CERTIFICATIONS === */
