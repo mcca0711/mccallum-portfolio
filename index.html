@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matthew McCallum — Full-Stack Developer & Applied AI</title>
-  <meta name="description" content="Matthew McCallum — Full-stack developer building practical AI-assisted software, desktop apps, secure internal tools, and workflow systems.
-Creator of Berly, a downloadable desktop app for AI compliance documentation, evidence organization, review notes, audit history, and exportable PDF documentation packages.
-">
-  <meta property="og:title" content="Matthew McCallum — Full-Stack Developer & Applied AI">
-  <meta property="og:description" content="Full-stack developer building practical AI-assisted software, desktop apps, and workflow tools that reduce manual work. Creator of Berly, a desktop app for AI compliance documentation.">
+  <title>Matthew McCallum — Data Visualization & Full-Stack Developer</title>
+  <meta name="description" content="Matthew McCallum is a data visualization and full-stack developer specializing in interactive data visualization, geospatial applications, data-driven interfaces, and practical full-stack software delivery.">
+  <meta property="og:title" content="Matthew McCallum — Data Visualization & Full-Stack Developer">
+  <meta property="og:description" content="Software developer specializing in interactive data visualization, geospatial applications, and data-driven interfaces with TypeScript, Vue/React, Python, mapping, and data engineering.">
   <meta property="og:image" content="https://mcca0711.github.io/mccallum-portfolio/assets/images/og-image.png">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
@@ -46,11 +44,14 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
             Available for new opportunities
           </div>
           <h1 class="hero-name">Matthew<br>McCallum</h1>
-          <p class="hero-role">Full-Stack Developer · Applied AI</p>
+          <p class="hero-role">AI & Data Product Developer</p>
           <p class="hero-desc">
-            Full-stack developer building practical AI-assisted software, desktop apps,
-            internal tools, and workflow systems. Creator of Berly, a downloadable
-            desktop app for AI compliance documentation.
+            Full-stack developer building AI-enabled applications, data-rich
+            software, and production workflows with TypeScript, Vue/React,
+            Python, SQL, and LLM integrations. My current focus is interactive
+            data visualization and geospatial applications, using maps, charts,
+            spatial data, and modern data tooling to turn complex information
+            into useful products.
           </p>
           <div class="hero-meta">
             <span class="meta-item">
@@ -74,33 +75,33 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
         <div class="hero-image">
           <div class="hero-img-frame">
             <img
-              src="assets/images/aiatwork.jpg"
-              alt="Applied AI development environment"
+              src="assets/images/hero.png"
+              alt="Bird Observation Explorer map preview with sidebar filters, observation counts, and mapped bird sightings"
               loading="eager"
-              width="520"
+              width="580"
             >
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SELECTED WORK -->
+    <!-- SELECTED PROJECTS -->
     <section class="section" id="work">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>Selected Work</h2>
-          <p>A sample of projects shipped. Real problems, real outcomes.</p>
+          <h2>Selected Projects</h2>
+          <p>Interactive data visualization, geospatial, AI, and software projects demonstrating how I work with complex data and practical product workflows.</p>
         </div>
 
         <div class="projects-grid">
 
-          <!-- PROJECT 1 — FEATURED: Berly -->
+          <!-- PROJECT 1 — FEATURED: Bird Observation Explorer -->
           <article class="project project-featured fade-in">
             <div class="project-gallery">
               <div class="gallery-main">
                 <img
-                  src="assets/images/og-image.png"
-                  alt="Berly — desktop AI compliance documentation app"
+                  src="assets/images/bird-observation-explorer.png"
+                  alt="Bird Observation Explorer geospatial data visualization interface with interactive maps and seasonal observation charts"
                   loading="lazy"
                 >
               </div>
@@ -109,95 +110,154 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
             <div class="project-info">
               <div class="project-meta">
                 <span class="project-num">01</span>
-                <span class="project-tag">Electron · React · TypeScript · Applied AI</span>
+                <span class="project-tag">Vue · TypeScript · MapLibre · Deck.gl · D3 · GeoPandas</span>
               </div>
-              <h3>Berly</h3>
+              <h3>Bird Observation Explorer</h3>
               <p>
-                Downloadable desktop app for AI compliance documentation. Berly helps teams
-                organize AI-system information, evidence, review notes, and documentation
-                workflows without turning governance into a manual paperwork exercise.
+                Interactive geospatial explorer for sampled eBird observations across Canada
+                and the United States. Combines a validated Python/GeoPandas data pipeline
+                with GeoParquet, DuckDB WASM, MapLibre, Deck.gl, and D3 to explore spatial
+                concentration, park-system context, and seasonal patterns.
               </p>
               <ul class="project-points">
-                <li>Built with Electron, React 18, TypeScript, Vite, and Tailwind CSS</li>
-                <li>Local-first workflow using localStorage and component state</li>
-                <li>Includes AI-assisted drafting, evidence review, and document export workflows</li>
-                <li>Built licensing, purchase flow, download delivery, and public product site</li>
+                <li>Automated acquisition and validation of eBird and government spatial data</li>
+                <li>GeoPandas point-in-polygon analysis with GeoParquet output</li>
+                <li>Interactive density and point mapping with MapLibre and Deck.gl</li>
+                <li>D3 seasonal visualization with filtering and scientific-data caveats</li>
+                <li>ESLint, Ruff, automated tests, CI, and GitHub Pages deployment</li>
               </ul>
               <div class="tech-stack">
-                <span>Electron</span>
-                <span>React</span>
+                <span>Vue</span>
                 <span>TypeScript</span>
-                <span>Vite</span>
-                <span>Tailwind CSS</span>
-                <span>AI Workflows</span>
+                <span>MapLibre</span>
+                <span>Deck.gl</span>
+                <span>D3</span>
+                <span>Python</span>
+                <span>GeoPandas</span>
+                <span>GeoParquet</span>
+                <span>DuckDB WASM</span>
               </div>
 
               <div class="project-actions">
-                <a href="https://berly.app" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
-                  Visit Berly ↗
+                <a href="https://mcca0711.github.io/bird-observation-explorer/" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                  Live Demo ↗
+                </a>
+                <a href="https://github.com/mcca0711/bird-observation-explorer" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                  GitHub ↗
                 </a>
               </div>
             </div>
           </article>
-         
-          <!-- PROJECT 2: Solar Forecasting Dashboard -->
-          <article class="project project-card fade-in">
-            <div class="card-img">
-              <img
-                src="assets/images/renewableenergy1.jpg"
-                alt="Solar Forecasting Dashboard — forecast overview"
-                loading="lazy"
-              >
-            </div>
+          <div class="project-cards-grid">
+            <!-- PROJECT 2: Renewable Energy Data Explorer -->
+            <article class="project project-card fade-in">
+              <div class="card-img">
+                <img
+                  src="assets/images/renewable-energy-thumbnail.png"
+                  alt="Renewable Energy Data Explorer dashboard thumbnail with forecast chart, site map, and metrics"
+                  loading="lazy"
+                >
+              </div>
 
-            <div class="project-info">
-              <div class="project-meta">
-                <span class="project-num">02</span>
-                <span class="project-tag">FastAPI · Python · AI</span>
-              </div>
-              <h3>Solar Forecasting Dashboard</h3>
-              <p>
-                FastAPI application that ingests live weather data to generate 48-hour solar
-                power forecasts and surface automated maintenance recommendations.
-                Containerized with Docker for on-premises deployment.
-              </p>
-              <div class="tech-stack">
-                <span>FastAPI</span>
-                <span>Python</span>
-                <span>PostgreSQL</span>
-                <span>Docker</span>
-                <span>REST APIs</span>
-              </div>
-            </div>
-          </article>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">02</span>
+                  <span class="project-tag">React · Recharts · Leaflet · FastAPI</span>
+                </div>
+                <h3>Renewable Energy Data Explorer</h3>
+                <p>
+                  Full-stack environmental data application for exploring 48-hour
+                  renewable-energy forecasts through interactive charts, maps, KPIs,
+                  and persisted run history.
+                </p>
+                <div class="tech-stack">
+                  <span>Next.js</span>
+                  <span>React</span>
+                  <span>Recharts</span>
+                  <span>Leaflet</span>
+                  <span>FastAPI</span>
+                  <span>PostgreSQL</span>
+                </div>
 
-          <!-- PROJECT 3: Solar Panel Optimizer -->
-          <article class="project project-card fade-in">
-            <div class="card-img">
-              <img
-                src="assets/images/solaroptimizer.jpg"
-                alt="Solar Panel Optimizer — geospatial site map"
-                loading="lazy"
-              >
-            </div>
-            <div class="project-info">
-              <div class="project-meta">
-                <span class="project-num">04</span>
-                <span class="project-tag">Flask · Geospatial</span>
+                <div class="project-actions">
+                  <a href="https://github.com/mcca0711/renewable-energy-data-explorer" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
               </div>
-              <h3>Solar Panel Optimizer</h3>
-              <p>
-                Geospatial tool that combines live weather data with interactive
-                map overlays to score and recommend optimal solar panel placement sites.
-              </p>
-              <div class="tech-stack">
-                <span>Flask</span>
-                <span>PostGIS</span>
-                <span>Leaflet.js</span>
-                <span>Python</span>
+            </article>
+
+            <!-- PROJECT 3: Solar Panel Optimizer -->
+            <article class="project project-card fade-in">
+              <div class="card-img">
+                <img
+                  src="assets/images/solar-panel-thumbnail.png"
+                  alt="Solar Panel Optimizer Leaflet map thumbnail with location marker and spatial outlook overlay"
+                  loading="lazy"
+                >
               </div>
-            </div>
-          </article>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">03</span>
+                  <span class="project-tag">Flask · Leaflet · Geospatial Prototype</span>
+                </div>
+                <h3>Solar Panel Optimizer</h3>
+                <p>
+                  Early geospatial prototype for searching locations and visualizing a
+                  simple solar-outlook indicator on an interactive Leaflet map.
+                </p>
+                <div class="tech-stack">
+                  <span>Flask</span>
+                  <span>JavaScript</span>
+                  <span>Leaflet</span>
+                  <span>OpenStreetMap</span>
+                </div>
+
+                <div class="project-actions">
+                  <a href="https://github.com/mcca0711/solar-panel-optimizer" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT 4: Berly -->
+            <article class="project project-card fade-in">
+              <div class="card-img">
+                <img
+                  src="assets/images/berly-thumbnail.png"
+                  alt="Berly product thumbnail for AI compliance documentation"
+                  loading="lazy"
+                >
+              </div>
+
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">04</span>
+                  <span class="project-tag">Electron · React · TypeScript</span>
+                </div>
+                <h3>Berly</h3>
+                <p>
+                  Desktop application for organizing AI compliance documentation,
+                  evidence, review notes, audit history, and exportable documentation
+                  packages.
+                </p>
+                <div class="tech-stack">
+                  <span>Electron</span>
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Vite</span>
+                  <span>Tailwind CSS</span>
+                </div>
+
+                <div class="project-actions">
+                  <a href="https://berly.app" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    Visit Berly ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
 
         </div>
       </div>
@@ -208,49 +268,58 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
       <div class="container">
         <div class="section-header fade-in">
           <h2>Skills & Expertise</h2>
-          <p>Technologies I use across full-stack and applied AI work.</p>
+          <p>Tools I use to build data visualizations, geospatial interfaces, frontend applications, and backend data services.</p>
         </div>
         <div class="skills-grid fade-in">
           <div class="skill-group">
-            <h4>Applied AI & Workflows</h4>
+            <h4>Data Visualization & Geospatial</h4>
             <ul>
-              <li>OpenAI API integrations</li>
-              <li>Structured outputs</li>
-              <li>Transcription & summarization workflows</li>
-              <li>Evidence review & document generation</li>
-              <li>Workflow automation</li>
+              <li>D3</li>
+              <li>MapLibre GL JS</li>
+              <li>Deck.gl</li>
+              <li>Leaflet</li>
+              <li>GeoPandas</li>
+              <li>GeoParquet</li>
+              <li>Spatial analysis</li>
             </ul>
           </div>
 
           <div class="skill-group">
-            <h4>Product & Desktop</h4>
+            <h4>Data & Backend</h4>
             <ul>
-              <li>Electron · electron-builder</li>
-              <li>React · TypeScript · Vite</li>
-              <li>Tailwind CSS</li>
-              <li>Desktop app packaging</li>
-              <li>Licensing & download delivery</li>
+              <li>Python</li>
+              <li>pandas</li>
+              <li>DuckDB</li>
+              <li>PostgreSQL</li>
+              <li>PostGIS</li>
+              <li>FastAPI</li>
+              <li>REST APIs</li>
             </ul>
           </div>
 
           <div class="skill-group">
-            <h4>Full-Stack</h4>
+            <h4>Frontend</h4>
             <ul>
-              <li>Python · FastAPI · Flask</li>
-              <li>Node.js · Express</li>
-              <li>PostgreSQL · Supabase</li>
-              <li>REST API design</li>
-              <li>Auth0 · RBAC</li>
+              <li>Vue</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>Vite</li>
+              <li>Responsive interfaces</li>
             </ul>
           </div>
 
           <div class="skill-group">
-            <h4>Delivery</h4>
+            <h4>Engineering & Delivery</h4>
             <ul>
-              <li>Docker · CI/CD pipelines</li>
-              <li>Dev / Test / Prod environments</li>
-              <li>Testing with Vitest, Testing Library, pytest</li>
-              <li>Debugging and release workflows</li>
+              <li>Git</li>
+              <li>Testing</li>
+              <li>Vitest</li>
+              <li>pytest</li>
+              <li>CI/CD</li>
+              <li>Docker</li>
+              <li>Linting and formatting</li>
+              <li>Deployment</li>
             </ul>
           </div>
         </div>
@@ -268,24 +337,36 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
         <div class="timeline-item">
           <div class="timeline-date">Apr 2024 – Present</div>
           <div class="timeline-body">
-            <h3>Full-Stack Developer / Applied AI Consultant</h3>
-            <span class="timeline-org">ThinkOrbit Innovations Inc. / Contract Projects</span>
+            <h3>Full-Stack Developer and Software Contractor</h3>
+            <span class="timeline-org">ThinkOrbit Innovations Inc.</span>
 
+            <h4>AI-Assisted Investigative Platform</h4>
+            <p>Contract Developer and QA · Feb 2026 – Present</p>
             <ul class="timeline-points">
-              <li> Built and launched Berly, an Electron + React/TypeScript desktop AI compliance documentation
-                  app with local-first storage, document/PDF export, licensing, purchase flow, download delivery,
-                  and a public product website</li>
-              <li>Build web applications, desktop software, internal tools, and AI-assisted workflows using Python, FastAPI, React/Vue, TypeScript, SQL, PostgreSQL, Supabase, and API integrations.</li>
-              <li>Build web applications, desktop software, and internal tools using Python, FastAPI, React/Vue,
-                  SQL, and API integrations</li>
-              <li>Develop AI-assisted workflows for reporting, transcription, summarization, structured extraction,
-                  evidence review, and workflow automation</li>
-              <li>Rebuilt and deployed FastAPI + Vue.js applications across development, test, and production
-                  environments</li>
-              <li>Implemented Auth0 and role-based access control for secure multi-user software platforms</li>
-              <li>Reduced manual reporting time by 50% through automated data structuring workflows</li>
-              <li>Work directly with stakeholders to define requirements, scope features, debug production
-                  issues, and deliver iterative improvements</li>
+              <li>Develop and test full-stack functionality for an AI-assisted investigative platform.</li>
+              <li>Improve source verification, citation integrity, reporting workflows, application security, automated testing, and production reliability.</li>
+            </ul>
+
+            <h4>Solis Indago and MooseMonitor.io</h4>
+            <p>QA Engineer · Sep 2025 – Present</p>
+            <ul class="timeline-points">
+              <li>Perform functional and regression testing across Solis Indago and MooseMonitor.io.</li>
+              <li>Document reproducible defects, workflow issues, and QA findings for developer review.</li>
+            </ul>
+
+            <h4>Cybersecurity SaaS Platform</h4>
+            <p>Contract Full-Stack Developer · Apr 2025 – Sep 2025</p>
+            <ul class="timeline-points">
+              <li>Rebuilt and deployed a Vue and FastAPI voice-to-text application across development, test, and production environments.</li>
+              <li>Implemented Auth0, role-based access control, automated reporting workflows, and production fixes.</li>
+              <li>Worked directly with stakeholders to define requirements, investigate defects, and deliver iterative releases.</li>
+            </ul>
+
+            <h4>Berly</h4>
+            <p>Product Developer</p>
+            <ul class="timeline-points">
+              <li>Built and launched a React and TypeScript desktop compliance documentation product, including architecture, automated testing, packaging, licensing, payments, and release.</li>
+              <li>Built its Cloudflare Workers API for payment webhooks, signed licence issuance, activation, validation, persistent records, and transactional email delivery.</li>
             </ul>
           </div>
         </div>
@@ -293,14 +374,14 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
         <div class="timeline-item">
           <div class="timeline-date">Jun 2022 – Apr 2024</div>
           <div class="timeline-body">
-            <h3>Software Developer</h3>
+            <h3>Full-Stack Software Developer</h3>
             <span class="timeline-org">WithYouWithMe Services Inc.</span>
 
             <ul class="timeline-points">
-              <li>Developed and maintained backend systems supporting Department of National Defence workstreams in a security-conscious environment.</li>
+              <li>Developed and maintained software supporting Canadian Armed Forces workstreams in a security-conscious environment using C#, C++, JavaScript, Python, SQL, and Oracle.</li>
               <li>Built REST APIs connecting legacy backend systems to modern frontend applications.</li>
-              <li>Modernized legacy workflows, improved maintainability, and helped reduce recurring operational support issues.</li>
-              <li>Collaborated with cross-functional teams to improve internal tools, reduce repetitive manual work, and support maintainable delivery.</li>
+              <li>Investigated defects and implemented backend and maintainability improvements that reduced recurring support issues.</li>
+              <li>Worked with developers and stakeholders to understand requirements, break down work, test changes, review implementation decisions, and support incremental releases.</li>
             </ul>
           </div>
         </div>
@@ -354,8 +435,8 @@ Creator of Berly, a downloadable desktop app for AI compliance documentation, ev
           <h2>Let's Work Together</h2>
           <p>
             Open to full-time, contract, and project-based opportunities 
-            in full-stack development, applied AI, and practical software 
-            delivery.
+            in data visualization, geospatial applications, frontend engineering,
+            and full-stack software development.
           </p>
           <div class="contact-actions">
             <button class="btn btn-primary" id="copy-email" data-email="orbit9112@gmail.com">orbit9112@gmail.com</button>
